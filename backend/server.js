@@ -11,6 +11,9 @@ app.use('/login', (req, res) => {
   res.send({
     token: 'test'
   });
+
+  // compare the encrypted password with input password
+  
 });
 
 app.post('/register', (req, res) => {

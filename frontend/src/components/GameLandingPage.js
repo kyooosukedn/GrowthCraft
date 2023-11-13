@@ -38,7 +38,7 @@ export default function GameLandingPage() {
           <Button variant="contained" color="secondary" style={{ marginRight: "20px" }}>
             SIGN UP NOW
           </Button>
-          <Button variant="contained" color="secondary">
+          <Button to="/login" variant="contained" color="secondary">
             LOGIN
           </Button>
         </Grid>
